@@ -668,7 +668,7 @@
 								</object>
 								<object class="NSMenuItem" id="312442175">
 									<reference key="NSMenu" ref="466310130"/>
-									<string key="NSTitle">Hide Taskbar</string>
+									<string key="NSTitle">Hide Filter Bar</string>
 									<string key="NSKeyEquiv">1</string>
 									<int key="NSKeyEquivModMask">1310720</int>
 									<int key="NSMnemonicLoc">2147483647</int>

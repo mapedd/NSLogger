@@ -1764,10 +1764,10 @@ didReceiveMessages:(NSArray *)theMessages
     NSMenuItem *hideShowButton = [[[[NSApp mainMenu] itemWithTag:VIEW_MENU_ITEM_TAG] submenu] itemWithTag:TOOLS_MENU_HIDE_SHOW_TOOLBAR];
     
     if (![splitView collapsibleSubviewCollapsed]) {
-        [hideShowButton setTitle:NSLocalizedString(@"Show Taskbar", @"Show Taskbar")];
+        [hideShowButton setTitle:NSLocalizedString(@"Show Filter Bar", @"Show Filter Bar")];
     }
     else{
-        [hideShowButton setTitle:NSLocalizedString(@"Hide Taskbar", @"Hide Taskbar")];
+        [hideShowButton setTitle:NSLocalizedString(@"Hide Filter Bar", @"Hide Filter Bar")];
     }
 
     [splitView toggleCollapse:nil];
